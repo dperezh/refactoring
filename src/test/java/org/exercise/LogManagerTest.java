@@ -33,7 +33,6 @@ public class LogManagerTest {
             logManager.LogMessage("This is a test", LogType.WARNING);
         } catch (Exception exception) {
             exceptionMessage = exception.getMessage();
-            exception.printStackTrace();
         }
         assertEquals("Error or Warning or Message must be specified", exceptionMessage);
     }
@@ -51,7 +50,6 @@ public class LogManagerTest {
             logManager.LogMessage("This is a test", LogType.WARNING);
         } catch (Exception exception) {
             exceptionMessage = exception.getMessage();
-            exception.printStackTrace();
         }
         assertEquals("Invalid configuration", exceptionMessage);
     }
