@@ -23,3 +23,16 @@ $ mvn clean install .
 ```
 $ mvn compile exec:java -Dexec.mainClass="org.exercise.App" -Dexec.cleanupDaemonThreads=false
 ```
+
+## Run with docker-compose 
+
+Build and start the container by running 
+
+```
+$ docker-compose up
+```
+
+##### Stop Docker Container:
+```
+$ docker-compose down
+```

@@ -1,0 +1,15 @@
+version: '2.1'
+services:
+  refactoring-app:
+    image: refactoring-app
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - '8080:8080'
+    restart: always
+    networks:
+      - back-tier
+networks:
+  back-tier:
+    driver: bridge
