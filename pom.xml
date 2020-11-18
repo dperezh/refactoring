@@ -56,6 +56,16 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+          <configuration>
+            <archive>
+              <manifest>
+                <addClasspath>true</addClasspath>
+                <classpathPrefix>lib</classpathPrefix>
+                <mainClass>org.exercise.App</mainClass>
+                <cleanupDaemonThreads>false</cleanupDaemonThreads>
+              </manifest>
+            </archive>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>

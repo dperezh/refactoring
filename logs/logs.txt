@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2020-11-18T11:12:24</date>
-  <millis>1605715944004</millis>
+  <date>2020-11-18T12:51:50</date>
+  <millis>1605721910521</millis>
   <sequence>0</sequence>
   <logger>MyLog</logger>
   <level>WARNING</level>
   <class>org.exercise.LogManager</class>
   <method>printLogs</method>
-  <thread>1</thread>
-  <message>WARNING November 18, 2020 This is a test</message>
+  <thread>11</thread>
+  <message>WARNING November 18, 2020 Mensaje de prueba</message>
 </record>
