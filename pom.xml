@@ -62,7 +62,6 @@
                 <addClasspath>true</addClasspath>
                 <classpathPrefix>lib</classpathPrefix>
                 <mainClass>org.exercise.App</mainClass>
-                <cleanupDaemonThreads>false</cleanupDaemonThreads>
               </manifest>
             </archive>
           </configuration>
