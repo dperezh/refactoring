@@ -1,5 +1,16 @@
 Refactoring
 
+#### Changes applied
+Renamed Demo class by LogManager to suggest the purpose of the class.
+
+Creation of the ILoggerDAO interface responsible for data access as well as its implementation LoggerDAO, giving a solution to the single responsibility principle.
+
+Rename the following variables: fh to fileHandler, ch to consoleHandler, stmt to statement, l to resultantMessage and t to logLevel.
+
+Refactoring of the LogMessage method which was very long, extracting part of the code to the printLogs method.
+
+Creation of interfaces in all layers (ILoggerDAO, ILoggerService, DBConnection) to comply with the segregation of interfaces and inversion of dependencies principles.
+
 #### Prerequisite
 
 Installed:   
